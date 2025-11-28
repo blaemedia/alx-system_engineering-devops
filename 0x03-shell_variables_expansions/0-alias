@@ -1,0 +1,2 @@
+# 0-alias
+alias ls='echo "This is a safe alias test!"'
