@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l
+#echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l
+
+#!/bin/bash
+IFS=':' read -ra DIRS <<< "$PATH"; echo "${#DIRS[@]}"
