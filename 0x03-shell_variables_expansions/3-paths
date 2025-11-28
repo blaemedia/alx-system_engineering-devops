@@ -1,5 +1,2 @@
 #!/bin/bash
-# Count the number of directories in PATH
-
-# Replace empty entries with nothing, then count by splitting on ':'
-echo "$PATH" | tr -s ':' '\n' | grep -v '^$' | wc -l
+echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l
