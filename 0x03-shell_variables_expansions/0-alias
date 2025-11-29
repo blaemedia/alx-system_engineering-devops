@@ -1,5 +1,1 @@
-# Safe example - creates a colorful ls
-alias ls='ls --color=auto'
-
-# Another safe example - adds human readable file sizes
-alias ll='ls -lh'
+alias ll='ls -l'
